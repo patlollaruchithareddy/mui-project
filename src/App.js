@@ -1,14 +1,13 @@
-import { Button } from '@mui/material';
+import React from 'react';
 import './App.css';
-import { SendAndArchiveOutlined } from '@mui/icons-material';
+import { Container } from '@mui/material';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Button color='inherit' variant="contained" startIcon={SendAndArchiveOutlined} >Click me</Button>
-      </header>
-    </div>
+    <Container>
+      <Header/>
+    </Container>
   );
 }
 
